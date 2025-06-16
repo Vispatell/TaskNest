@@ -146,6 +146,7 @@ const [projectState, setProjectState] = useState(() => {
         handleStart={handleStart}
         projects={projectState.projects}
         handleSelectedProject={handleSelectedProject}
+        selectedProjectId={projectState.selectedProjectId}
       />
       {content}
     </main>
